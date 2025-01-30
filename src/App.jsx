@@ -31,7 +31,11 @@ function App() {
       </p>
 
       <Componente texto={"Hola"} texto2={"ADIOS"}/>
-      <PongoAdios />
+      <PongoAdios>
+        <img src={reactLogo} className="logo react" alt="React logo" />
+        {count}
+
+      </PongoAdios>
     </>
   )
 }

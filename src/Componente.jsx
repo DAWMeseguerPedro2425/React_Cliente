@@ -13,14 +13,19 @@ function Componente({texto,texto2,textoDefaul="Soy default"}) {
     >Me llamo {`${persona.nombre} ${persona.apellido}`} {persona.nombre} </h1>
     <h3>Prubas parametros: {texto} y default es {textoDefaul}</h3>
     <h3>Pruebas varios parametros: {texto2}</h3>
+
     </>
     )
 }
 
 
-function PongoAdios() {
+function PongoAdios({children: hijoprodigo1}) {
   return (
+    <>
     <h2>Pongo a Dios como testigo</h2>
+    {hijoprodigo1}
+    
+    </>
     )
 }
 
